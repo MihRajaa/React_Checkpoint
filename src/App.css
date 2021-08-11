@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -13,16 +10,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +23,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-color: #8ba2b498;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 29, 61);
+  height: 100px;
+  padding: 50px;
+  opacity: 20;
+  box-shadow: steelblue;
+}
+
+.logo_header{
+  height: 50px;
+  width: 80px;
+}
+
+#TextHeader{
+  color: whitesmoke;
+  font-style: oblique;
+}
+
+main{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.formulaire{
+  display: flexbox;
+  margin-top: 5%;
+  background: rgb(255, 255, 255, 0.4);
+  padding: 1rem;
+  border-radius: 20px;
+  z-index: 4;
+  width: 70%;
+}
+
+button{
+  margin-left: 90%;
+}
+
+.logo_main{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+
 }
